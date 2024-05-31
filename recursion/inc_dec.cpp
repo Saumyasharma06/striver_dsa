@@ -1,19 +1,21 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 //increment decrement
 void inc_dec(int n){
     if(n==0){
         return;
     }
-    printf("%d\n",n);
+    cout<<n<<endl;
     inc_dec(n-1);
-    printf("%d\n",n);
+    
+    cout<<n<<endl;
     return;
 }
 
 int main() {
     int n;
-    printf("enter the value of n");
-    scanf("%d",&n);
+    cout<<"enter the value of n";
+    cin>>n;
     inc_dec(n);
     return 0;
 }

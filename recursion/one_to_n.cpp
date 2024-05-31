@@ -1,17 +1,18 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 void decreasing(int n){
     if(n==0){
         return;
     }
-    printf("%d\n",n);
+    cout<<n<<endl;
     decreasing(n-1);
     return;
 }
 
 int main() {
     int n;
-    printf("enter the value of n");
-    scanf("%d",&n);
+    cout<<"enter the value of n";
+    cin>>n;
     decreasing(n);
     return 0;
 }
