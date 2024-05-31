@@ -2,6 +2,8 @@
 using namespace std;
 //increment decrement
 void inc_dec(int n){
+
+    //base condition
     if(n==0){
         return;
     }
@@ -11,7 +13,7 @@ void inc_dec(int n){
     cout<<n<<endl;
     return;
 }
-
+//main
 int main() {
     int n;
     cout<<"enter the value of n";
