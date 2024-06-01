@@ -7,7 +7,7 @@ int fibo(int n){
     int fibonacci=fibo(n-1)+fibo(n-2);
      return fibonacci;
 }
-
+//fibonacci code
 int main(){
     int n,fibonacci;
     cout<<"enter the number of terms";
